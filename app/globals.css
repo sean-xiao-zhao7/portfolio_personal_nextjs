@@ -5,6 +5,8 @@
   --foreground: #ffffff;
 }
 
+@custom-variant light (&:where(.light, .light *));
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
@@ -12,14 +14,7 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: black;
-    --foreground: #ededed;
-  }
-}
-
-body {
+html {
   background: var(--background);
   color: var(--foreground);
 }
