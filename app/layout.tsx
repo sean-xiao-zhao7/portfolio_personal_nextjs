@@ -29,7 +29,9 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <MainMenu />
-        {children}
+        <div className="p-8">
+          {children}
+        </div>
       </body>
     </html>
   );
