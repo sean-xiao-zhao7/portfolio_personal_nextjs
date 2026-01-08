@@ -3,6 +3,7 @@
 :root {
   --background: black;
   --foreground: #ffffff;
+  --green: oklch(92.249% 0.23442 125.904);
 }
 
 @custom-variant light (&:where(.light, .light *));
