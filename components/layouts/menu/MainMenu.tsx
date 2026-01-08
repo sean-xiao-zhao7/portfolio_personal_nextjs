@@ -6,5 +6,6 @@ export default function MainMenu() {
         <li><Link href='/cv' className="text-2xl font-semibold">CV</Link></li>
         <li><Link href='/ai' className="text-2xl font-semibold">AI</Link></li>
         <li><Link href='/music' className="text-2xl font-semibold">Music</Link></li>
+        <li><button type="button" className="text-2xl font-semibold cursor-pointer">Light mode</button></li>
     </ul>
 }
