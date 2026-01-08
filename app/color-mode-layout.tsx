@@ -15,6 +15,10 @@ const geistMono = Geist_Mono({
     subsets: ["latin"],
 });
 
+/**
+ * Root layout that allows switching between dark/light mode.
+ * This is a client component, whereas layout.tsx is a server component that exports metadata. 
+ */
 export default function ColorModeLayout({ children }: { children: ReactNode }) {
     const [colorMode, setColorMode] = useState('dark');
 

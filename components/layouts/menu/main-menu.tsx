@@ -7,6 +7,6 @@ export default function MainMenu({ setColorMode, currentColorMode }: { setColorM
         <li><Link href='/cv' className="text-2xl font-semibold">CV</Link></li>
         <li><Link href='/ai' className="text-2xl font-semibold">AI</Link></li>
         <li><Link href='/music' className="text-2xl font-semibold">Music</Link></li>
-        <li><button type="button" className="text-2xl font-semibold cursor-pointer" onClick={() => setColorMode((prevState) => prevState === 'light' ? 'dark' : 'light')}>{currentColorMode === 'dark' ? 'Light mode' : 'Dark mode'}</button></li>
+        <li><button type="button" className="text-2xl font-semibold cursor-pointer" onClick={() => setColorMode((prevState) => prevState === 'light' ? 'dark' : 'light')}>{currentColorMode === 'dark' ? 'Light' : 'Dark'}</button></li>
     </ul>
 }
