@@ -2,8 +2,8 @@
 
 import { Geist, Geist_Mono } from "next/font/google";
 
-import MainMenu from "@/components/layouts/menu/MainMenu";
-import { ReactNode } from "react";
+import MainMenu from "@/components/layouts/menu/main-menu";
+import { ReactNode, useState } from "react";
 
 const geistSans = Geist({
     variable: "--font-geist-sans",
@@ -16,11 +16,13 @@ const geistMono = Geist_Mono({
 });
 
 export default function ColorModeLayout({ children }: { children: ReactNode }) {
-    return <html lang="en" className="dark">
+    const [colorMode, setColorMode] = useState('dark');
+
+    return <html lang="en" className={colorMode}>
         <body
             className={`${geistSans.variable} ${geistMono.variable} antialiased light:bg-white light:text-black`}
         >
-            <MainMenu />
+            <MainMenu setColorMode={setColorMode} currentColorMode={colorMode} />
             <div className="p-8">
                 {children}
             </div>
