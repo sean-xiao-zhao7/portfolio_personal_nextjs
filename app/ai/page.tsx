@@ -1,5 +1,7 @@
+import PageMainHeader from "@/components/layouts/page/PageMainHeader"
+
 export default function AIPage() {
     return <>
-        <h1>AI page</h1>
+        <PageMainHeader>AI page</PageMainHeader>
     </>
 }

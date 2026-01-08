@@ -1,5 +1,7 @@
+import PageMainHeader from "@/components/layouts/page/PageMainHeader";
+
 export default function CVPage() {
     return <>
-        <h1>CV page</h1>
+        <PageMainHeader>CV page</PageMainHeader>
     </>
 }

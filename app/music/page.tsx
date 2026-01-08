@@ -1,5 +1,7 @@
+import PageMainHeader from "@/components/layouts/page/PageMainHeader";
+
 export default function MusicPage() {
     return <>
-        <h1>Music page</h1>
+        <PageMainHeader>Music page</PageMainHeader>
     </>
 }
