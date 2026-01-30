@@ -4,8 +4,8 @@ import "./globals.css";
 import ColorModeLayout from "./color-mode-layout";
 
 export const metadata: Metadata = {
-  title: "JPX",
-  description: "JPX Portfolio.",
+  title: "Cyan Jean",
+  description: "Cyan Jean's Portfolio site.",
 };
 
 /**

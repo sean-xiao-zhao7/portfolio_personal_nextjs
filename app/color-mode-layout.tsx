@@ -1,18 +1,17 @@
 'use client';
 
-import { Geist, Geist_Mono } from "next/font/google";
-
-import MainMenu from "@/components/layouts/menu/main-menu";
 import { ReactNode, useState } from "react";
+import { PT_Serif, Lexend_Deca, Birthstone } from "next/font/google";
+import MainMenu from "@/components/layouts/menu/main-menu";
 
-const geistSans = Geist({
-    variable: "--font-geist-sans",
-    subsets: ["latin"],
+const fontBody = PT_Serif({
+    weight: ["700", "400"],
+    variable: "--font-body",
 });
 
-const geistMono = Geist_Mono({
-    variable: "--font-geist-mono",
-    subsets: ["latin"],
+const fontHeader = Birthstone({
+    weight: ["400"],
+    variable: "--font-header",
 });
 
 /**
@@ -24,7 +23,7 @@ export default function ColorModeLayout({ children }: { children: ReactNode }) {
 
     return <html lang="en" className={colorMode}>
         <body
-            className={`flex flex-row ${geistSans.variable} ${geistMono.variable} antialiased light:bg-white light:text-black`}
+            className={`flex flex-row ${fontBody.variable} ${fontHeader.variable} antialiased light:bg-white light:text-black`}
         >
             <MainMenu setColorMode={setColorMode} currentColorMode={colorMode} />
             <div className="pt-10 pr-14 pl-14 pb-14">
