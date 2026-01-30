@@ -27,7 +27,7 @@ export default function ColorModeLayout({ children }: { children: ReactNode }) {
             className={`flex flex-row ${geistSans.variable} ${geistMono.variable} antialiased light:bg-white light:text-black`}
         >
             <MainMenu setColorMode={setColorMode} currentColorMode={colorMode} />
-            <div className="pt-12 pr-14 pl-14">
+            <div className="pt-10 pr-14 pl-14 pb-14">
                 {children}
             </div>
         </body>
