@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   description: "JPX Portfolio.",
 };
 
+/**
+ * Placeholder for ColorModeLayout 
+ */
 export default function RootLayout({
   children,
 }: {

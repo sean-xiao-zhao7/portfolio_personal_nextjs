@@ -4,6 +4,9 @@ import { Bot, Music, FileUser, House } from 'lucide-react';
 
 import ModeSwitcher from "@/components/widgets/mode-switcher";
 
+/**
+ * Left sidebar menu.
+ */
 export default function MainMenu({ setColorMode, currentColorMode }: { setColorMode: Dispatch<SetStateAction<string>>, currentColorMode: string }) {
     const iconOutlineColor = currentColorMode === 'dark' ? 'var(--green)' : 'black';
     const iconFillColor = currentColorMode === 'dark' ? undefined : 'var(--green)';
