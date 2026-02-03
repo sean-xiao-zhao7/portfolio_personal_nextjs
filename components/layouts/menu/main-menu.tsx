@@ -13,11 +13,11 @@ export default function MainMenu({ setColorMode, currentColorMode }: { setColorM
     const iconFillColor = currentColorMode === 'dark' ? undefined : 'var(--green)';
     const modeSwitcherHandler = () => { setColorMode((prevState) => prevState === 'light' ? 'dark' : 'light') };
 
-    return <ul className="min-h-screen p-10 flex flex-col gap-10 items-center bg-stone-950 light:bg-stone-100 light:border-r-1 light:border-stone-200">
+    return <ul className="min-h-screen pb-10 flex flex-col items-center bg-stone-950 light:bg-stone-100 light:border-r-1 light:border-stone-200">
         <MainMenuItem href="/" icon={<House fill={iconFillColor} color={iconOutlineColor} size={40} />}>Home</MainMenuItem>
         <MainMenuItem href="/cv" icon={<FileUser fill={iconFillColor} color={iconOutlineColor} size={40} />}>About</MainMenuItem>
         <MainMenuItem href="/ai" icon={<Bot fill={iconFillColor} color={iconOutlineColor} size={40} />}>A.I.</MainMenuItem>
         <MainMenuItem href="/music" icon={<Music fill={iconFillColor} color={iconOutlineColor} size={40} />}>Music</MainMenuItem>
-        <li><ModeSwitcher text={currentColorMode === 'dark' ? 'Light' : 'Dark'} modeSwitchHandler={modeSwitcherHandler} on={currentColorMode === 'dark'} /></li>
+        <li className="px-10 py-8"><ModeSwitcher text={currentColorMode === 'dark' ? 'Light' : 'Dark'} modeSwitchHandler={modeSwitcherHandler} on={currentColorMode === 'dark'} /></li>
     </ul>
 }

@@ -7,5 +7,5 @@ import { ReactNode } from "react";
 export default function MainMenuItem({ href, icon, children }: {
     href: string, icon: ReactNode, children: ReactNode
 }) {
-    return <li><Link href={href} className="font-header text-4xl flex flex-col items-center">{icon} {children}</Link></li>
+    return <li><Link href={href} className="font-header text-4xl px-10 py-8 flex flex-col items-center">{icon} {children}</Link></li>
 }
