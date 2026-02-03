@@ -3,7 +3,7 @@ import PageMainHeader from "@/components/layouts/page/page-header";
 
 export default function CVPage() {
     return <>
-        <PageMainHeader>CV</PageMainHeader>
+        <PageMainHeader>About</PageMainHeader>
         <PageBody>
             Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur blandit quis mauris tincidunt iaculis. Aliquam elementum vestibulum interdum. Donec eu viverra ante, vitae pulvinar mauris. Vestibulum sed ante a felis posuere porta. Sed vel rhoncus magna. Nunc feugiat ante ut leo feugiat, nec malesuada leo accumsan. Integer eget mattis eros, et iaculis elit. Nam nibh justo, vestibulum eget nisi vel, aliquam feugiat nulla. Vestibulum vel justo risus. Praesent enim purus, venenatis efficitur fermentum eu, tempus id magna. Vivamus nec tellus ac risus posuere ornare quis id eros. Morbi vitae urna odio.
             Pellentesque justo purus, pretium sed scelerisque eget, scelerisque nec nisi. Morbi venenatis in sapien ut ultricies. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer elit dolor, mollis et nisi eget, volutpat gravida nunc. Nam pulvinar arcu vitae dolor laoreet laoreet. Proin ultricies dignissim nisi eget efficitur. In a faucibus massa. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nulla sit amet rutrum nibh. Donec arcu sapien, facilisis eget ipsum sed, vestibulum bibendum felis. Proin vel nisl tortor. Suspendisse tincidunt tincidunt enim et dignissim. Aenean accumsan malesuada congue. Suspendisse maximus ornare nisi sit amet iaculis.

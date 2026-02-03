@@ -3,7 +3,7 @@ import PageMainHeader from "@/components/layouts/page/page-header"
 
 export default function AIPage() {
     return <>
-        <PageMainHeader>AI</PageMainHeader>
+        <PageMainHeader>Gen A.I.</PageMainHeader>
         <PageBody>
             Fusce at augue mauris. Integer quis arcu arcu. Morbi vehicula, enim eget porttitor semper, elit risus fermentum odio, sed convallis felis ante vitae arcu. Donec nulla lacus, pellentesque id ullamcorper nec, venenatis eget massa. Integer in enim sit amet mauris scelerisque sollicitudin. Praesent quis imperdiet ligula, ac rutrum sem. Integer eu purus pellentesque, tincidunt sapien nec, rutrum lacus. Aenean tristique iaculis tellus. Phasellus luctus, quam ac sodales sodales, erat tortor ultricies risus, et ultrices eros velit vel diam. Cras elementum tincidunt bibendum.
             Sed fermentum mauris eget arcu aliquet imperdiet. Proin at dictum nibh. Donec ornare mollis purus id porttitor. Suspendisse scelerisque tortor neque, eget gravida nunc ornare vel. Pellentesque ac nulla elementum, iaculis mauris eget, posuere dui. In eleifend blandit faucibus. Proin non justo quis erat pretium laoreet. Duis mattis, dolor vel iaculis tristique, magna odio lacinia est, ac dictum massa ligula vitae odio. Vestibulum posuere finibus efficitur. Duis porta ac arcu eget imperdiet. Aliquam ac velit sit amet augue tincidunt consectetur ut quis orci. Maecenas dictum nisl et sodales sollicitudin. Vivamus in finibus arcu. Praesent vel placerat elit.
