@@ -4,9 +4,7 @@ import { ReactNode } from "react";
  * Page header for home page or pages with emphasis 
  */
 export default function PageLargeHeader({ children }: { children: ReactNode }) {
-    return <div className="flex justify-start font-header">
-        <h1 className="max-w-xs text-7xl leading-10 tracking-tight pt-2 pb-4">
-            {children}
-        </h1>
-    </div>
+    return <h1 className="font-header text-7xl px-12 py-8 bg-stone-800 light:bg-stone-50 light:border-b-1 light:border-stone-100">
+        {children}
+    </h1>
 }

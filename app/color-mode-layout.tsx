@@ -23,12 +23,12 @@ export default function ColorModeLayout({ children }: { children: ReactNode }) {
 
     return <html lang="en" className={colorMode}>
         <body
-            className={`flex flex-row ${fontBody.variable} ${fontHeader.variable} antialiased light:bg-white light:text-black`}
+            className={`flex ${fontBody.variable} ${fontHeader.variable} antialiased light:bg-white light:text-black`}
         >
             <MainMenu setColorMode={setColorMode} currentColorMode={colorMode} />
-            <div className="pt-10 pr-14 pl-14 pb-14">
+            <main>
                 {children}
-            </div>
+            </main>
         </body>
     </html>
 }
