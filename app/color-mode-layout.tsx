@@ -26,7 +26,7 @@ export default function ColorModeLayout({ children }: { children: ReactNode }) {
             className={`flex ${fontBody.variable} ${fontHeader.variable} antialiased light:bg-white light:text-black`}
         >
             <MainMenu setColorMode={setColorMode} currentColorMode={colorMode} />
-            <main>
+            <main className="w-10/11">
                 {children}
             </main>
         </body>

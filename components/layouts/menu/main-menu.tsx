@@ -13,7 +13,7 @@ export default function MainMenu({ setColorMode, currentColorMode }: { setColorM
     const iconFillColor = currentColorMode === 'dark' ? undefined : 'var(--green)';
     const modeSwitcherHandler = () => { setColorMode((prevState) => prevState === 'light' ? 'dark' : 'light') };
 
-    return <ul className="min-h-screen pb-10 flex flex-col items-center bg-stone-950 light:bg-stone-100 light:border-r-1 light:border-stone-200">
+    return <ul className="min-h-screen w-1/11 pb-10 flex flex-col items-center bg-stone-950 light:bg-stone-100 light:border-r-1 light:border-stone-200">
         <MainMenuItem href="/" icon={<House fill={iconFillColor} color={iconOutlineColor} size={40} />}>Home</MainMenuItem>
         <MainMenuItem href="/cv" icon={<FileUser fill={iconFillColor} color={iconOutlineColor} size={40} />}>About</MainMenuItem>
         <MainMenuItem href="/ai" icon={<Bot fill={iconFillColor} color={iconOutlineColor} size={40} />}>A.I.</MainMenuItem>
