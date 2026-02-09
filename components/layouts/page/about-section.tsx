@@ -6,7 +6,7 @@ export default function AboutSection({ h2Content, h3Content, children }: { h2Con
         <h2>{h2Content}</h2>
         <h3>{h3Content}</h3>
         <ContentDivider />
-        <div>
+        <div className="flex flex-col gap-4">
             {children}
         </div>
     </>
