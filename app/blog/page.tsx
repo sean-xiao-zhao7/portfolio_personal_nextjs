@@ -5,7 +5,7 @@ export default function BlogPage() {
     return <>
         <PageMainHeader>Blog</PageMainHeader>
         <PageBody>
-            Article one.
+            <p>Under construction.</p>
         </PageBody>
     </>
 }

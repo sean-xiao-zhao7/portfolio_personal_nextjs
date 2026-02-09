@@ -9,7 +9,9 @@ export default function Home() {
     </PageLargeHeader>
     <PageLargeBody>
       <PageParagraph>
-        Welcome to my homepage! Use the menu on left to explore.
+        <p>Welcome to my homepage!</p>
+        <br />
+        <p>Use the menu on left to explore.</p>
       </PageParagraph>
     </PageLargeBody>
   </>
