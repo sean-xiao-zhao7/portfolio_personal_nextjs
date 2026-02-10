@@ -6,7 +6,7 @@ export default function AIPage() {
     return <>
         <PageMainHeader>Gen A.I. - Midjourney</PageMainHeader>
         <PageBody>
-            <div className="flex flex-wrap gap-10 justify-center">
+            <div className="flex flex-wrap gap-4 justify-center">
                 <ImageItem src={'https://res.cloudinary.com/dvayupwmu/image/upload/v1770755974/rain1_ybd80y.png'} alt='Rain 1' />                
                 <ImageItem src={'https://res.cloudinary.com/dvayupwmu/image/upload/v1770326249/supergirlfly3_ctekqg.png'} alt='Super Girl flying 3' />
                 <ImageItem src={'https://res.cloudinary.com/dvayupwmu/image/upload/v1770326249/cyberpunk7_ufovag.png'} alt='Cyberpunk 7' />
@@ -25,6 +25,9 @@ export default function AIPage() {
                 <ImageItem src={'https://res.cloudinary.com/dvayupwmu/image/upload/v1770755888/starwars7_xsoibl.png'} alt='Star Wars 7' />
                 <ImageItem src={'https://res.cloudinary.com/dvayupwmu/image/upload/v1770755969/angel2_qy3lcg.png'} alt='Angel 2' />
                 <ImageItem src={'https://res.cloudinary.com/dvayupwmu/image/upload/v1770326249/marigold6_rehsep.png'} alt='Marigold 6' />
+                <ImageItem src={'https://res.cloudinary.com/dvayupwmu/image/upload/v1770756936/dryflower0_ctrall.png'} alt='Dry Flower 0' />
+                <ImageItem src={'https://res.cloudinary.com/dvayupwmu/image/upload/v1770756934/gakko3_dg2jtw.png'} alt='Gakko 3' />
+                <ImageItem src={'https://res.cloudinary.com/dvayupwmu/image/upload/v1770756933/amy5_zwjjqq.png'} alt='Amy 5' />
             </div>
         </PageBody>
     </>
