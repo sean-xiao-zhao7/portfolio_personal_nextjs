@@ -15,7 +15,7 @@ export default function MainMenu({ setColorMode, currentColorMode }: { setColorM
 
     return <ul className="min-h-screen w-1/11 pb-10 flex flex-col items-center bg-stone-950 light:bg-stone-100 light:border-r-1 light:border-stone-200">
         <MainMenuItem href="/" icon={<House fill={iconFillColor} color={iconOutlineColor} size={40} />}>Home</MainMenuItem>
-        <MainMenuItem href="/cv" icon={<FileUser fill={iconFillColor} color={iconOutlineColor} size={40} />}>About</MainMenuItem>
+        <MainMenuItem href="/cv" icon={<FileUser fill={iconFillColor} color={iconOutlineColor} size={40} />}>C.V.</MainMenuItem>
         <MainMenuItem href="/ai" icon={<Bot fill={iconFillColor} color={iconOutlineColor} size={40} />}>A.I.</MainMenuItem>
         <MainMenuItem href="/music" icon={<Music fill={iconFillColor} color={iconOutlineColor} size={40} />}>Music</MainMenuItem>
         <MainMenuItem href="/blog" icon={<Pencil fill={iconFillColor} color={iconOutlineColor} size={40} />}>Blog</MainMenuItem>

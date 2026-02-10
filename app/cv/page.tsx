@@ -5,7 +5,7 @@ import AboutSection from "@/components/layouts/page/about-section";
 
 export default function CVPage() {
     return <>
-        <PageMainHeader>About - C.V.</PageMainHeader>
+        <PageMainHeader>Curriculum Vitae</PageMainHeader>
         <PageBody>
             <PageParagraph>
                 <AboutSection h2Content="Full Stack Software Engineer" h3Content="Nodis.io Inc.">
