@@ -9,8 +9,8 @@ export default function Home() {
     </PageLargeHeader>
     <PageLargeBody>
       <PageParagraph>
-        <p>Welcome to my home page! I'm a software engineer.</p>
-        <p>Use the menu on the left to explore the site.</p>
+        <p>Welcome to my home page! I'm a full stack software developer by trade.</p>
+        <p>Use the menu on the left to explore my hobbies.</p>
       </PageParagraph>
       <PageParagraph>
         <p>C.V. - curriculum vitae: see my list of career projects and history.</p>

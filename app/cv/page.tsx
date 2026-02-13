@@ -8,27 +8,65 @@ export default function CVPage() {
         <PageMainHeader>Curriculum Vitae</PageMainHeader>
         <PageBody>
             <PageParagraph>
-                <AboutSection h2Content="Full Stack Software Engineer" h3Content="Nodis.io Inc.">
-                    <p>Design and develop robust, user-friendly, stable and secure web and mobile software applications based on complex business requirements. Ensure maintainability, expandability and reusability.</p>
-                    <p>Design and build frontend components using ReactJS, NextJS, TypeScript, Vanilla JavaScript, HTML5, CSS3, SASS, Tailwind CSS, Material UI libraries, etc.</p>
-                    <p>Build backend APIs and services using NodeJS, MongoDB, MySQL, AWS, Google Firebase, etc. Build mobile applications using React Native and Flutter, etc.</p>
-                    <p>Implement and troubleshoot using A.I tools like Cursor, ChatGPT and Midjourney.</p>
+                <AboutSection h2Content="Full Stack Software Developer" h3Content="BlackSheep Inc. Startup enterprise. Toronto, ON, Canada.">
+                    <p>Responsible for the whole software development of web and mobile applications, in a startup enivronment.</p>
+                    <p>Use Flutter to build mobile application stack. Utilize Material UI for frontend, and Firebase for backend.</p>
+                    <p>Use ReactJS/NextJS, TypeScript, HTML5/SASS/CSS3 to build web application.</p>
+                    <p>Use SQL and MongoDB to build database and utilize for applications.</p>
+                    <p>Participate in agile workflow; attend meetings with stakeholdders; analyze requirements and convert them into roadmaps.</p>
+                    <p>Maintain and deploy mobile applications on Apple/Android storefronts. Manage policies and national requirements for release.</p>
+                    <p>Ensure applications are usable 24/7, respond to urgent fixes, unexpected downs and other requests.</p>
+                    <p>Ensure mobile responsiveness and accessibility of all parts of each application.</p>
                 </AboutSection>
             </PageParagraph>
             <PageParagraph>
-                <AboutSection h2Content="Software Programmer Analyst" h3Content="University of Toronto Libraries"><p>Develop, implement and troubleshoot software applications and integrations based on Java/Spring, PHP/CMS, HTML/CSS, Python, Linux DevOps and others.</p><p> Interact with university patrons to identify and achieve technical goals with their research projects.</p><p> Adapt to changing requirements quickly in a positive manner regarding both technical and non-technical aspects.</p>
-                    <p>Participate in team plans, including testing and deployment, for all new and legacy features.</p></AboutSection>
+                <AboutSection h2Content="Lead Software Developer" h3Content="Nodis.io Inc. Toronto, ON, Canada.">
+                    <p>Build front and back ends of a rewards application on mobile and desktop, based on a proprietary cryptocurrency backend.</p>
+                    <p>Use ReactJS, HTML/CSS, React Native, VueJS and other tools for frontend.</p>
+                    <p>Use NodeJS, Express, MongoDB, to build storage, authentication and middleware layers.</p>
+                    <p>Participate in team sprints; plan projects and milestones; revise strategies in team meetings post launches.</p>
+                    <p>Maintain mobile application after deployment; ensure user experiences are pleasant.</p>
+                    <p>Refactor code and re-release applications as needed; particpate in relaunch of app and ensure new user experiences.</p>
+                    <p>Ensure mobile responsiveness and accessibility of all parts of each application.</p>
+                </AboutSection>
             </PageParagraph>
             <PageParagraph>
-                <AboutSection h2Content="Project Mobile Software Engineer" h3Content="BlackSheep Inc."><p>Run a startup project with a small team to design and build mobile and web applications.</p><p>Design and build frontend using Flutter, Material UI, ReactJS, NextJS, HTML5/CSS3, SASS.</p>
-                    <p>Build backend using Google Firebase, NoSQL, Git.</p></AboutSection>
+                <AboutSection h2Content="Application Programmer Analyst" h3Content="University of Toronto Libraries. Toronto, ON, Canada.">
+                    <p>A member of library IT department, support a specific librarian's clients with digitial needs.</p>
+                    <p>Support users of web applications and add new features upon request.</p>
+                    <p>Design and build web application using Java, PHP, Drupal, Python, SQL and other tools.</p>
+                    <p>Build and maintain servers uing Docker, Chef, Linux, Apache, NGINX and other tools.</p>
+                    <p>Upgrade legacy applications in older frameworks; assess capability and find workarounds when needed.</p>
+                    <p>Using CI/CD for testing and deployements.</p>
+                    <p>Ensure mobile responsiveness and accessibility of all parts of each application.</p>
+                </AboutSection>
             </PageParagraph>
             <PageParagraph>
-                <AboutSection h2Content="Project Software Engineer" h3Content="Raymond Mowla Music"><p>Analyze business requirements, design and develop new software components and maintain existing ones based on Vanilla TypeScript, HTML5, CSS3, SASS, Material Design and Git.</p>
-                    <p>Develop and maintain CI/CD workflow with GitHub.</p></AboutSection>
+                <AboutSection h2Content="Frontend Software Developer" h3Content="Raymond Mowla Music. Toronto, ON, Canada.">
+                    <p>Design and build a local musician online portfolio.</p>
+                    <p>Use vanilla modern TypeScript/JavaScript, HTML5/CSS3, SASS, Material UI, and others for interface development.</p>
+                    <p>Enable YouTube listening experience within the site, allow social media intergrations.</p>
+                    <p>Update site automatically with new releases. Update aesthetics of the design periodically.</p>
+                    <p>Ensure mobile responsiveness and accessibility of all parts of each application.</p>
+                </AboutSection>
             </PageParagraph >
             <PageParagraph>
-                <AboutSection h2Content="Project Software Engineer" h3Content="Fellowship GTA"><p>Design and build frontend applications using Vue.js, HTML5, CSS3, SASS and other tools. Deploy using Git.</p><p>Manage hosting of applications on.</p></AboutSection>
+                <AboutSection h2Content="Frontend Software Developer" h3Content="Fellowship GTA. Mississauga, ON, Canada.">
+                    <p>Design and build a church website that is modern and accessible.</p>
+                    <p>Use Vue.js, HTML5/CSS3, SASS, Material UI library to build a frontend application.</p>
+                    <p>Communicate clearly with non-technical people about website features and development needs.</p>
+                    <p>Maintain, deploy and update site periodically with new features, media and text.</p>
+                    <p>Ensure mobile responsiveness and accessibility of all parts of each application.</p>
+                </AboutSection>
+            </PageParagraph>
+            <PageParagraph>
+                <AboutSection h2Content="Lead Mobile Application Developer" h3Content="Nectar Inc. Early startup. Toronto, ON, Canada.">
+                    <p>Attempt to bootstrap a mobile application-centric startup service.</p>
+                    <p>Use Flutter and Sigma to design a prototype mobile application that meets market research.</p>
+                    <p>Conduct market research and do fundraising activities.</p>
+                    <p>Consult experts in industry to assess viabliity before coding.</p>
+                    <p>Heavily refine requirements, app design and workflows to adapt to market feedback.</p>
+                </AboutSection>
             </PageParagraph>
         </PageBody >
     </>
