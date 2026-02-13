@@ -1,7 +1,7 @@
 import PageMainHeader from "@/components/layouts/page/page-header";
 import PageBody from "@/components/layouts/page/page-body";
 import PageParagraph from "@/components/layouts/page/page-paragraph";
-import AboutSection from "@/components/layouts/page/about-section";
+import AboutSection from "@/components/cv/about-section";
 
 export default function CVPage() {
     return <>

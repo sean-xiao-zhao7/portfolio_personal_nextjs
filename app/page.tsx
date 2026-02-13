@@ -9,19 +9,13 @@ export default function Home() {
     </PageLargeHeader>
     <PageLargeBody>
       <PageParagraph>
-        <p>Welcome to my home page! I'm a full stack software developer by trade.</p>
-        <p>Use the menu on the left to explore my hobbies.</p>
+        <p>Welcome to my home page! I'm Sean/Cyan, a full stack software developer by trade.</p>
+        <p>Feel free to explore using the menu on the left.</p>
       </PageParagraph>
       <PageParagraph>
         <p>C.V. - curriculum vitae: see my list of career projects and history.</p>
-      </PageParagraph>
-      <PageParagraph>
         <p>A.I. - Check out A.I. images made with Midjourney.</p>
-      </PageParagraph>
-      <PageParagraph>
         <p>Music - See some music recommendations.</p>
-      </PageParagraph>
-      <PageParagraph>
         <p>Blog - Read blog posts.</p>
       </PageParagraph>
     </PageLargeBody>
