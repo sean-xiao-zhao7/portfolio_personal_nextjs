@@ -1,6 +1,6 @@
 import SuspenseLoader from "../widgets/suspense-loader"
 
-export default function SingleTrack({ src }: { src: string }) {
+export default function SingleTrackSpotify({ src }: { src: string }) {
     return <SuspenseLoader>
         <iframe
             data-testid="embed-iframe"
