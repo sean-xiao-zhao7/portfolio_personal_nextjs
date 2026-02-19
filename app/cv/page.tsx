@@ -9,11 +9,11 @@ export default function CVPage() {
         <PageBody>
             <PageParagraph>
                 <AboutSection h2Content="Full Stack Software Developer" h3Content="BlackSheep Inc. Startup enterprise. Toronto, ON, Canada.">
-                    <p>Responsible for the whole software development of web and mobile applications, in a startup enivronment.</p>
+                    <p>Responsible for the whole software development of web and mobile applications, in a startup environment.</p>
                     <p>Use Flutter to build mobile application stack. Utilize Material UI for frontend, and Firebase for backend.</p>
                     <p>Use ReactJS/NextJS, TypeScript, HTML5/SASS/CSS3 to build web application.</p>
                     <p>Use SQL and MongoDB to build database and utilize for applications.</p>
-                    <p>Participate in agile workflow; attend meetings with stakeholdders; analyze requirements and convert them into roadmaps.</p>
+                    <p>Participate in agile workflow; attend meetings with stakeholders; analyze requirements and convert them into roadmaps.</p>
                     <p>Maintain and deploy mobile applications on Apple/Android storefronts. Manage policies and national requirements for release.</p>
                     <p>Ensure applications are usable 24/7, respond to urgent fixes, unexpected downs and other requests.</p>
                     <p>Ensure mobile responsiveness and accessibility of all parts of each application.</p>
@@ -26,18 +26,18 @@ export default function CVPage() {
                     <p>Use NodeJS, Express, MongoDB, to build storage, authentication and middleware layers.</p>
                     <p>Participate in team sprints; plan projects and milestones; revise strategies in team meetings post launches.</p>
                     <p>Maintain mobile application after deployment; ensure user experiences are pleasant.</p>
-                    <p>Refactor code and re-release applications as needed; particpate in relaunch of app and ensure new user experiences.</p>
+                    <p>Refactor code and re-release applications as needed; participate in relaunch of app and ensure new user experiences.</p>
                     <p>Ensure mobile responsiveness and accessibility of all parts of each application.</p>
                 </AboutSection>
             </PageParagraph>
             <PageParagraph>
                 <AboutSection h2Content="Application Programmer Analyst" h3Content="University of Toronto Libraries. Toronto, ON, Canada.">
-                    <p>A member of library IT department, support a specific librarian's clients with digitial needs.</p>
+                    <p>A member of library IT department, support a specific librarian's clients with digital needs.</p>
                     <p>Support users of web applications and add new features upon request.</p>
                     <p>Design and build web application using Java, PHP, Drupal, Python, SQL and other tools.</p>
-                    <p>Build and maintain servers uing Docker, Chef, Linux, Apache, NGINX and other tools.</p>
+                    <p>Build and maintain servers using Docker, Chef, Linux, Apache, NGINX and other tools.</p>
                     <p>Upgrade legacy applications in older frameworks; assess capability and find workarounds when needed.</p>
-                    <p>Using CI/CD for testing and deployements.</p>
+                    <p>Using CI/CD for testing and deployments.</p>
                     <p>Ensure mobile responsiveness and accessibility of all parts of each application.</p>
                 </AboutSection>
             </PageParagraph>
@@ -45,7 +45,7 @@ export default function CVPage() {
                 <AboutSection h2Content="Frontend Software Developer" h3Content="Raymond Mowla Music. Toronto, ON, Canada.">
                     <p>Design and build a local musician online portfolio.</p>
                     <p>Use vanilla modern TypeScript/JavaScript, HTML5/CSS3, SASS, Material UI, and others for interface development.</p>
-                    <p>Enable YouTube listening experience within the site, allow social media intergrations.</p>
+                    <p>Enable YouTube listening experience within the site, allow social media integrations.</p>
                     <p>Update site automatically with new releases. Update aesthetics of the design periodically.</p>
                     <p>Ensure mobile responsiveness and accessibility of all parts of each application.</p>
                 </AboutSection>
