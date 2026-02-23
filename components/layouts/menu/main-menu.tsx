@@ -1,6 +1,6 @@
 import { Dispatch, SetStateAction, useState } from "react";
 
-import { Bot, Music, FileUser, House, Pencil, Camera } from 'lucide-react';
+import { Bot, Music, FileUser, House, Pencil, Camera, MenuIcon } from 'lucide-react';
 
 import ModeSwitcher from "@/components/widgets/mode-switcher";
 import MainMenuItem from "./main-menu-item";
@@ -28,7 +28,10 @@ export default function MainMenu({ setColorMode, currentColorMode }: { setColorM
             <MainMenuItem href="/blog" icon={<Pencil fill={iconFillColor} color={iconOutlineColor} size={40} />}>Blog</MainMenuItem>
             <li className="px-10 py-8"><ModeSwitcher text={currentColorMode === 'dark' ? 'Light' : 'Dark'} modeSwitchHandler={modeSwitcherHandler} on={currentColorMode === 'dark'} /></li>
         </ul>
-        <ul className={`mobile-menu ${isMobile ? 'flex' : 'hidden'} absolute min-h-screen pb-10 flex flex-col items-center bg-stone-950 light:bg-stone-100 light:border-r-1 light:border-stone-200`}>
+        <ul className={`mobile-menu ${isMobile ? 'flex' : 'hidden'} fixed absolute z-10 min-h-screen pb-10 flex flex-col items-center bg-stone-950 light:bg-stone-100 light:border-r-1 light:border-stone-200`}>
+            <div className="pt-4" onClick={toggleMobileMenuHandler}>
+                <MenuIcon fill={iconFillColor} color={iconOutlineColor} size={40} />
+            </div>
             <MainMenuItem href="/" icon={<House fill={iconFillColor} color={iconOutlineColor} size={40} />}>Home</MainMenuItem>
             <MainMenuItem href="/cv" icon={<FileUser fill={iconFillColor} color={iconOutlineColor} size={40} />}>C.V.</MainMenuItem>
             <MainMenuItem href="/music" icon={<Music fill={iconFillColor} color={iconOutlineColor} size={40} />}>Music</MainMenuItem>
@@ -37,8 +40,8 @@ export default function MainMenu({ setColorMode, currentColorMode }: { setColorM
             <MainMenuItem href="/blog" icon={<Pencil fill={iconFillColor} color={iconOutlineColor} size={40} />}>Blog</MainMenuItem>
             <li className="px-10 py-8"><ModeSwitcher text={currentColorMode === 'dark' ? 'Light' : 'Dark'} modeSwitchHandler={modeSwitcherHandler} on={currentColorMode === 'dark'} /></li>
         </ul>
-        <div className="flex md:hidden" onClick={toggleMobileMenuHandler}>
-            <House fill={iconFillColor} color={iconOutlineColor} size={40} />
+        <div className="flex md:hidden p-2 fixed z-0" onClick={toggleMobileMenuHandler}>
+            <MenuIcon fill={iconFillColor} color={iconOutlineColor} size={30} />
         </div>
     </>
 }
