@@ -19,7 +19,7 @@ export default function MainMenu({ setColorMode, currentColorMode }: { setColorM
     }
 
     return <>
-        <ul className="hidden md:flex min-h-screen pb-10 flex flex-col items-center bg-stone-950 light:bg-stone-100 light:border-r-1 light:border-stone-200">
+        <ul className="fixed hidden md:flex min-h-screen pb-10 flex flex-col items-center bg-stone-950 light:bg-stone-100 light:border-r-1 light:border-stone-200">
             <MainMenuItem href="/" icon={<House fill={iconFillColor} color={iconOutlineColor} size={40} />}>Home</MainMenuItem>
             <MainMenuItem href="/cv" icon={<FileUser fill={iconFillColor} color={iconOutlineColor} size={40} />}>C.V.</MainMenuItem>
             <MainMenuItem href="/music" icon={<Music fill={iconFillColor} color={iconOutlineColor} size={40} />}>Music</MainMenuItem>
