@@ -10,16 +10,17 @@ export default function Home() {
     </PageLargeHeader>
     <PageLargeBody>
       <PageParagraph>
-        <p>Welcome to Cyan Jean's home page!</p>
-        <p>Feel free to explore using the menu on the left.</p>
+        <p>Welcome to Cyan Jean's portfolio!</p>
+        <p>Explore the various sections of this site via the main menu.</p>
       </PageParagraph>
       <PageParagraph>
-        <h2>Site Sections</h2>
+        <h2>Sections</h2>
         <ContentDivider />
-        <p> C.V. - curriculum vitae: see my list of career projects and history.</p>
-        <p>A.I. - Check out A.I. images made with Midjourney.</p>
-        <p>Music - See some music recommendations.</p>
-        <p>Blog - Read blog posts.</p>
+        <p> C.V. - Curriculum vitae of my career as a software developer.</p>     
+        <p>Music - J-pop music video collection.</p>
+        <p>Photography - DSLR photos.</p>        
+        <p>A.I. - Completed Midjourney projects.</p>
+        <p>Blog - Under construction.</p>
       </PageParagraph>
     </PageLargeBody >
   </>
