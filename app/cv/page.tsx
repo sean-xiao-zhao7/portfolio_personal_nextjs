@@ -54,9 +54,50 @@ export default function CVPage() {
                 <AboutSection h2Content="Mobile Application Developer" h3Content="Nectar.io, Toronto.">
                     <p>Attempt to bootstrap a mobile application-centric startup service.</p>
                     <p>Use Flutter and Sigma to design a prototype mobile application that meets market research.
-                    Conduct market research and do fundraising activities.
-                    Consult experts in industry to assess viabliity before coding.</p>
+                        Conduct market research and do fundraising activities.
+                        Consult experts in industry to assess viabliity before coding.</p>
                     <p>Heavily refine requirements, app design and workflows to adapt to market feedback.</p>
+                    <p>Frontend:		Flutter.</p>
+                    <p>Operational:	Figma, Git, XCode.</p>
+                </AboutSection>
+            </PageParagraph>
+            <PageParagraph>
+                <AboutSection h2Content="Frontend Application Developer" h3Content="Samiya International, Maputo, Mozambique.">
+                    <p>Design, build and maintain a web portal for Samiya - a children's aid foundation based in Africa.</p>
+                    <p>Communicate remotely with owner, gather feedback on design and update portal with new content.</p>
+                    <p>Frontend:		React, HTML5, CSS3, SASS.</p>
+                    <p>Operational:	Git, Linux CLI.</p>
+                </AboutSection>
+            </PageParagraph>
+            <PageParagraph>
+                <AboutSection h2Content="Mobile Application Developer" h3Content="JUZGO Inc., Mississauga.">
+                    <p>Design, build and maintain a mobile application for real estate management.</p>
+                    <p>Build, refine and test prototypes. Maintain frequent communication with project managers.</p>
+                    <p>Frontend:		React Native.</p>
+                    <p>Backend: AWS.</p>
+                    <p>Operational:	Git, Linux CLI.</p>
+                </AboutSection>
+            </PageParagraph>
+            <PageParagraph>
+                <AboutSection h2Content="Research Application Developer Intern" h3Content="The Riverwood Conservancy, Mississauga.">
+                    <p>As a member of a team of interns, design, build and maintain a full stack web application for biological data.</p>
+                    <p>Learn as a group Ruby On Rails, MySQL and related technologies. Collaborate with environmental researchers on data models and UI/UX.</p>
+                    <p>Frontend:		Ruby On Rails, HTML4, CSS.</p>
+                    <p>Operational:	Git, Linux CLI, MySQL.</p>
+                </AboutSection>
+            </PageParagraph>
+            <PageParagraph>
+                <AboutSection h2Content="Frontend Application Developer Intern" h3Content="Youth Unlimited / Youth For Christ, Toronto.">
+                    <p>As a member of a team of interns, design, build and maintain a web application for youth growth.</p>
+                    <p>Learn as a group Ruby On Rails and related technologies in order to apply in projects.</p>
+                    <p>Frontend:		Ruby On Rails.</p>
+                    <p>Operational:	Git, Linux CLI.</p>
+                </AboutSection>
+            </PageParagraph>
+            <PageParagraph>
+                <AboutSection h2Content="Kitchen worker" h3Content="Fred's Not Here, Toronto.">
+                    <p>As a member of a restaurant staff, prepare food and keep spaces tidy.</p>
+                    <p>Ensure customer happiness, enable staff efficiency.</p>
                 </AboutSection>
             </PageParagraph>
         </PageBody >
