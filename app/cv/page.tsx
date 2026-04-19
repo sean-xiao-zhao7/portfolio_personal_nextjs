@@ -8,7 +8,7 @@ export default function CVPage() {
         <PageMainHeader>Curriculum Vitae</PageMainHeader>
         <PageBody>
             <PageParagraph>
-                <AboutSection h2Content="Full Stack Software Developer" h3Content="FellowshipGTA, Toronto.">
+                <AboutSection h2Content="Full Stack Software Developer" h3Content="BlackSheep Inc., Toronto.">
                     <p>As a member of a small team, design and build web and mobile applications.</p>
                     <p>
                         Focus on responsive design, UI/UX usability, aesthetics, maintainability and scalability.
