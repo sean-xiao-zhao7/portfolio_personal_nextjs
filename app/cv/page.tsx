@@ -8,7 +8,7 @@ export default function CVPage() {
         <PageMainHeader>Curriculum Vitae</PageMainHeader>
         <PageBody>
             <PageParagraph>
-                <AboutSection h2Content="Full Stack Software Developer" h3Content="BlackSheep Inc., Toronto.">
+                <AboutSection h2Content="Full Stack Software Developer" h3Content="Fellowship GTA., Mississauga.">
                     <p>As a member of a small team, design and build web and mobile applications.</p>
                     <p>
                         Focus on responsive design, UI/UX usability, aesthetics, maintainability and scalability.
@@ -51,7 +51,7 @@ export default function CVPage() {
                 </AboutSection>
             </PageParagraph >
             <PageParagraph>
-                <AboutSection h2Content="Mobile Application Developer" h3Content="Nectar.io, Toronto.">
+                <AboutSection h2Content="Mobile Application Developer" h3Content="Nectar, Toronto.">
                     <p>Attempt to bootstrap a mobile application-centric startup service.</p>
                     <p>Use Flutter and Sigma to design a prototype mobile application that meets market research.
                         Conduct market research and do fundraising activities.
