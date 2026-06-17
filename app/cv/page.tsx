@@ -8,11 +8,12 @@ export default function CVPage() {
         <PageMainHeader>Curriculum Vitae</PageMainHeader>
         <PageBody>
             <PageParagraph>
-                <AboutSection h2Content="Full Stack Software Developer" h3Content="Fellowship GTA., Mississauga.">
-                    <p>As a member of a small team, design and build web and mobile applications.</p>
+                <AboutSection h2Content="Full Stack Software Developer" h3Content="Fellowship GTA">
                     <p>
-                        Focus on responsive design, UI/UX usability, aesthetics, maintainability and scalability.
-                        Translate requirements into prototypes, then build, test and release. Collaborate with cross-functional teams on a regular basis by responding to user feedback, management requests, bug-fixes, planning and other operations.
+                        Translate design ideas into production software that satisfy requirements using JavaScript/TypeScript frameworks like React.js, Next.js, Node/Express.js, React Native and Flutter; and using design tools like HTML5, CSS3, SASS, Tailwind CSS, MaterialUI, Figma, and other modern standards for responsive and AODA compliant interfaces.
+                    </p>
+                    <p>
+                        Execute efficient communication within teams of all levels, in order to ensure clear understanding and documentation of all high level technical parts. Evaluate existing stack against new technologies and provide technical guidance on implementation into existing code base without issue.
                     </p>
                     <p>Frontend:		TypeScript, React.js, Next.js, Flutter, Vue.js, React Native.</p>
                     <p>Design: 		HTML5, CSS3, SASS, MaterialUI, TailwindCSS, etc.</p>
@@ -21,10 +22,10 @@ export default function CVPage() {
                 </AboutSection>
             </PageParagraph>
             <PageParagraph>
-                <AboutSection h2Content="Senior Software Developer" h3Content="Nodis.io, Toronto.">
-                    <p>As a core member of a software startup company in Toronto, plan, design, build and maintain web and mobile applications.</p>
-                    <p>Learn and apply new technical knowledge in order to implement requirements. Learn as a team. Work under a tight schedule amid shifting requirements and unforeseen challenges.
-                        Apply quality assurance for deployments, report issues and architect solutions.</p>
+                <AboutSection h2Content="Software Developer" h3Content="Nodis.io">
+                    <p>Provide technical leadership within an early Toronto startup of around 10 people, engineering an “M.E.A.N”. stack including React.js, Node.js, MongoDB, AWS EC2, HTML/CSS, and React Native. Build REST API using Node, MongoDB and SQL database.</p>
+                    <p>Properly test all parts of the software stack. Navigate complex communication within a fast-paced environment, ensuring the team comply with the agile development principle. Assess the viability of React.js and other tools as a team, carefully conduct prototyping that proves feasibility to all members of the team. Carefully document the learning process and its results.
+                    </p>
                     <p>Frontend:		React.js, React Native, PHP.</p>
                     <p>Design: 		HTML5, CSS3, SASS, Bootstrap, jQuery.</p>
                     <p>Backend:		Node.js, AWS, MongoDB, MySQL.</p>
@@ -32,15 +33,16 @@ export default function CVPage() {
                 </AboutSection>
             </PageParagraph>
             <PageParagraph>
-                <AboutSection h2Content="Programmer Analyst" h3Content="University of Toronto, Toronto.">
-                    <p>As a member of the digital library at U of T, design, build, test and maintain various applications for researchers, video V.O.D./streaming projects.</p>
-                    <p>Convert requirements into implementations via prototyping. Collaborate with a large team to ensure robust deployments and promptly respond to issues.</p>
+                <AboutSection h2Content="Programmer Analyst" h3Content="University of Toronto">
+                    <p>Maintain legacy software such as Drupal CMS systems, Java and PHP based MVC frameworks; design responsive and AODA compliant interfaces using HTML, CSS, existing theme libraries; conduct PostgreSQL and MySQL database administration, and work with DevOps team to build automated deployment using Jenkins.</p>
+                    <p>Collaborate with teams of all levels to integrate and migrate existing legacy software into newer technologies such as JavaScript, Ruby and Python based systems. Share and learn technical knowledge within the team of developers, designers, librarians, DevOps and other members. </p>
                     <p>Frontend:		Java, PHP, Drupal CMS, ColdFusion, Ruby on Rails.</p>
                     <p>Design: 		HTML5, CSS3, Bootstrap, jQuery.</p>
                     <p>Backend:		Spring, Postgres, MySQL, NGINX, Apache.</p>
                     <p>Operational:	Git, Linux CLI, Jenkins, Chef, JIRA, FFmpeg with MPEG-DASH.</p>
                 </AboutSection>
             </PageParagraph>
+            <PageMainHeader>Projects and other work history</PageMainHeader>
             <PageParagraph>
                 <AboutSection h2Content="Project Software Developer" h3Content="RaymondMowla Music, Toronto.">
                     <p>As the sole software developer of a musician digital portal, design, build, and maintain the structure and content of the portal. Ensure responsiveness.</p>
