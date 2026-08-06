@@ -1,6 +1,4 @@
 import type { Metadata } from "next";
-
-import "./globals.css";
 import ColorModeLayout from "./color-mode-layout";
 
 export const metadata: Metadata = {
