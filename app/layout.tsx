@@ -6,9 +6,6 @@ export const metadata: Metadata = {
   description: "Cyan Jean's Portfolio site.",
 };
 
-/**
- * Placeholder for ColorModeLayout 
- */
 export default function RootLayout({
   children,
 }: {

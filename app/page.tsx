@@ -3,7 +3,7 @@ import PageBody from "@/components/layouts/page/page-body";
 import PageParagraph from "@/components/layouts/page/page-paragraph";
 import AboutSection from "@/components/cv/about-section";
 
-export default function CVPage() {
+export default function Home() {
     return <>
         <PageMainHeader>Curriculum Vitae</PageMainHeader>
         <PageBody>

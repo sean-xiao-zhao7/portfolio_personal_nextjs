@@ -1,8 +1,9 @@
 'use client';
 
 import { ReactNode, useState } from "react";
-import { PT_Serif, Lexend_Deca, Birthstone } from "next/font/google";
+import { PT_Serif, Birthstone } from "next/font/google";
 import MainMenu from "@/components/layouts/menu/main-menu";
+import './globals.css';
 
 const fontBody = PT_Serif({
     weight: ["700", "400"],
@@ -22,6 +23,9 @@ export default function ColorModeLayout({ children }: { children: ReactNode }) {
     const [colorMode, setColorMode] = useState('dark');
 
     return <html lang="en" className={colorMode}>
+        <head>
+            <link href="/globals.css" rel="stylesheet" />
+        </head>
         <body
             className={`relative flex flex-col md:flex-row ${fontBody.variable} ${fontHeader.variable} antialiased light:bg-white light:text-black`}
         >
