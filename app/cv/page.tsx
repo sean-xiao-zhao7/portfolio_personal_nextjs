@@ -8,7 +8,7 @@ export default function CVPage() {
         <PageMainHeader>Curriculum Vitae</PageMainHeader>
         <PageBody>
             <PageParagraph>
-                <AboutSection h2Content="Full Stack Software Developer" h3Content="Fellowship GTA">
+                <AboutSection h2Content="Full Stack Software Developer" h3Content="BlackSheep Inc.">
                     <p>
                         Translate design ideas into production software that satisfy requirements using JavaScript/TypeScript frameworks like React.js, Next.js, Node/Express.js, React Native and Flutter; and using design tools like HTML5, CSS3, SASS, Tailwind CSS, MaterialUI, Figma, and other modern standards for responsive and AODA compliant interfaces.
                     </p>
