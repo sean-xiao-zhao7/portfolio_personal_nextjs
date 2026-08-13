@@ -5,7 +5,7 @@ import AboutSection from "@/components/cv/about-section";
 
 export default function CVPage() {
     return <>
-        <PageMainHeader>Curriculum Vitae</PageMainHeader>
+        <PageMainHeader>Sean Xiao - Curriculum Vitae</PageMainHeader>
         <PageBody>
             <PageParagraph>
                 <AboutSection h2Content="Full Stack Software Developer" h3Content="BlackSheep Inc.">

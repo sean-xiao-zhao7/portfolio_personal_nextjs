@@ -5,6 +5,15 @@ const nextConfig: NextConfig = {
   images: {
     remotePatterns: [{ protocol: 'https', hostname: 'res.cloudinary.com' }],
   },
+  redirects() {
+    return [
+      {
+        source: '/',
+        destination: '/cv',
+        permanent: true,
+      },
+    ]
+  },
 };
 
 export default nextConfig;

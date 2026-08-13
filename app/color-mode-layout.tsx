@@ -27,10 +27,10 @@ export default function ColorModeLayout({ children }: { children: ReactNode }) {
             <link href="/globals.css" rel="stylesheet" />
         </head>
         <body
-            className={`relative flex flex-col md:flex-row ${fontBody.variable} ${fontHeader.variable} antialiased light:bg-white light:text-black`}
+            className={`w-full relative flex flex-col md:flex-row ${fontBody.variable} ${fontHeader.variable} antialiased light:bg-white light:text-black`}
         >
             <MainMenu setColorMode={setColorMode} currentColorMode={colorMode} />
-            <main className="w-full ml-0 md:ml-52">
+            <main className="w-full ml-0 md:ml-60">
                 {children}
             </main>
         </body>
