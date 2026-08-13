@@ -4,7 +4,7 @@ import ImageItem from '@/components/images/image-item'
 
 export default function AIPage() {
     return <>
-        <PageMainHeader>A.I. Images</PageMainHeader>
+        <PageMainHeader>A.I. Illustrations</PageMainHeader>
         <PageBody>
             <div className="flex flex-wrap gap-4 justify-center">
                 <ImageItem src={'https://res.cloudinary.com/dvayupwmu/image/upload/v1770755974/rain1_ybd80y.png'} alt='Rain 1' width="w-120" height="h-144" />
