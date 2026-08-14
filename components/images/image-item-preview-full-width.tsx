@@ -11,8 +11,8 @@ export default function ImageItemPreviewFullWidth({ src, alt, captionBody, capti
                 <Image src={src} alt={alt} fill objectFit="cover" />
             </SuspenseLoader>
         </div>
-        <div className="pl-8">
-            <PageMainHeader>{captionTitle}</PageMainHeader>
+        <div className="p-8">
+            <PageMainHeader padding="pb-8">{captionTitle}</PageMainHeader>
             {captionBody}
         </div>
     </ContainerMidShadow>
