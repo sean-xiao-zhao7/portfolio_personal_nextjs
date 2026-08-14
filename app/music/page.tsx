@@ -1,5 +1,5 @@
-import PageBody from "@/components/layouts/page/page-body";
-import PageMainHeader from "@/components/layouts/page/page-main-header";
+import PageBody from "@/components/layouts/containers/page-body";
+import PageMainHeader from "@/components/layouts/headers/page-main-header";
 import SingleTrackYouTube from "@/components/music/single-track-youtube";
 
 export default function MusicPage() {

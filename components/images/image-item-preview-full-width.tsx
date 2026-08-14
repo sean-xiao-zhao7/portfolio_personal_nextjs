@@ -2,7 +2,7 @@ import Image from "next/image";
 
 import SuspenseLoader from '../widgets/suspense-loader';
 import ContainerMidShadow from "../layouts/containers/container-mid-shadow";
-import PageMainHeader from "../layouts/page/page-main-header";
+import PageMainHeader from "../layouts/headers/page-main-header";
 
 export default function ImageItemPreviewFullWidth({ src, alt, captionBody, captionTitle }: { src: string, alt: string, captionBody: string, captionTitle: string }) {
     return <ContainerMidShadow flex margin="mb-10">
@@ -11,7 +11,7 @@ export default function ImageItemPreviewFullWidth({ src, alt, captionBody, capti
                 <Image src={src} alt={alt} fill objectFit="cover" />
             </SuspenseLoader>
         </div>
-        <div className="p-4">
+        <div className="pl-8">
             <PageMainHeader>{captionTitle}</PageMainHeader>
             {captionBody}
         </div>
