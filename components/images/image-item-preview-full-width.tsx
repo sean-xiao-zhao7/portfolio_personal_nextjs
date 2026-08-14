@@ -6,9 +6,9 @@ import PageMainHeader from "../layouts/headers/page-main-header";
 
 export default function ImageItemPreviewFullWidth({ src, alt, captionBody, captionTitle }: { src: string, alt: string, captionBody: string, captionTitle: string }) {
     return <ContainerMidShadow flex margin="mb-10">
-        <div className="w-1/2 h-200 relative">
+        <div className="h-100 md:w-1/2 md:h-200 relative flex items-center text-center">
             <SuspenseLoader>
-                <Image src={src} alt={alt} fill objectFit="cover" />
+                <Image src={src} alt={alt} fill style={{ objectFit: "cover" }} />
             </SuspenseLoader>
         </div>
         <div className="p-8">
