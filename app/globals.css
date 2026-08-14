@@ -25,3 +25,7 @@ html.light {
   background: var(--foreground);
   color: var(--background);
 }
+
+li:not(:last-child) {
+  padding-bottom: 1rem;
+}
