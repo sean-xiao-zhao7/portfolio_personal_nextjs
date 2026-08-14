@@ -1,18 +1,18 @@
 import Image from "next/image";
-import SuspenseLoader from '../widgets/suspense-loader';
-import PageBody from "../layouts/page/page-body";
-import PageParagraph from "../layouts/page/page-paragraph";
 
-export default function ImageItemPreviewFullWidth({ src, alt, captionBody, captionTitle, width, height }: { src: string, alt: string, captionBody: string, captionTitle: string, width: string, height: string }) {
-    return <PageBody>
-        <div className={`relative w-full h-200 shadow-xl`}>
+import SuspenseLoader from '../widgets/suspense-loader';
+import ContainerMidShadow from "../layouts/containers/container-mid-shadow";
+
+export default function ImageItemPreviewFullWidth({ src, alt, captionBody, captionTitle }: { src: string, alt: string, captionBody: string, captionTitle: string }) {
+    return <ContainerMidShadow flex margin={4}>
+        <div className="w-1/2 h-160 relative">
             <SuspenseLoader>
-                <Image src={src} alt={alt} fill objectFit="cover" className='shadow-xl' />
+                <Image src={src} alt={alt} fill objectFit="cover" />
             </SuspenseLoader>
         </div>
-        <PageParagraph>
+        <div>
             <h2>{captionTitle}</h2>
             {captionBody}
-        </PageParagraph>
-    </PageBody>
+        </div>
+    </ContainerMidShadow>
 }
