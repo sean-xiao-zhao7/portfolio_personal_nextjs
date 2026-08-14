@@ -1,4 +1,4 @@
-import PageMainHeader from "@/components/layouts/page/page-header";
+import PageMainHeader from "@/components/layouts/page/page-main-header";
 import PageBody from "@/components/layouts/page/page-body";
 import ImageItem from "@/components/images/image-item-preview";
 

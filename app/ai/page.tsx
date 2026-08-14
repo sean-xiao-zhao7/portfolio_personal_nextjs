@@ -1,5 +1,5 @@
 import PageBody from "@/components/layouts/page/page-body"
-import PageMainHeader from "@/components/layouts/page/page-header"
+import PageMainHeader from "@/components/layouts/page/page-main-header"
 import ImageItemPreviewFullWidth from "@/components/images/image-item-preview-full-width"
 
 export default function AIPage() {
