@@ -1,6 +1,6 @@
 import PageMainHeader from "@/components/layouts/page/page-header";
 import PageBody from "@/components/layouts/page/page-body";
-import ImageItem from "@/components/images/image-item";
+import ImageItem from "@/components/images/image-item-preview";
 
 export default function PhotoPage() {
     return <>

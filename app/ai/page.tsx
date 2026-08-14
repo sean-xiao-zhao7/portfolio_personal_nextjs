@@ -1,34 +1,20 @@
 import PageBody from "@/components/layouts/page/page-body"
 import PageMainHeader from "@/components/layouts/page/page-header"
-import ImageItem from '@/components/images/image-item'
+import ImageItemPreviewFullWidth from "@/components/images/image-item-preview-full-width"
 
 export default function AIPage() {
     return <>
         <PageMainHeader>A.I. Illustrations</PageMainHeader>
         <PageBody>
-            <div className="flex flex-wrap gap-4 justify-center">
-                <ImageItem src={'https://res.cloudinary.com/dvayupwmu/image/upload/v1770755974/rain1_ybd80y.png'} alt='Rain 1' width="w-120" height="h-144" />
-                <ImageItem src={'https://res.cloudinary.com/dvayupwmu/image/upload/v1770326249/supergirlfly3_ctekqg.png'} alt='Super Girl flying 3' width="w-120" height="h-144" />
-                <ImageItem src={'https://res.cloudinary.com/dvayupwmu/image/upload/v1770326249/cyberpunk7_ufovag.png'} alt='Cyberpunk 7' width="w-120" height="h-144" />
-                <ImageItem src={'https://res.cloudinary.com/dvayupwmu/image/upload/v1770755973/angel1_kwebza.png'} alt='Angel 1' width="w-120" height="h-144" />
-                <ImageItem src={'https://res.cloudinary.com/dvayupwmu/image/upload/v1770755921/jesse0_abv0ij.png'} alt='Jesse 0' width="w-120" height="h-144" />
-                <ImageItem src={'https://res.cloudinary.com/dvayupwmu/image/upload/v1770754359/shinobu_5_h6bvok.png'} alt='Shinobu 5' width="w-120" height="h-144" />
-                <ImageItem src={'https://res.cloudinary.com/dvayupwmu/image/upload/v1770754386/dany3_bjt8ff.png'} alt='Dany 3' width="w-120" height="h-144" />
-                <ImageItem src={'https://res.cloudinary.com/dvayupwmu/image/upload/v1770754347/iris_5_ffkxng.png'} alt='Iris Out 5' width="w-120" height="h-144" />
-                <ImageItem src={'https://res.cloudinary.com/dvayupwmu/image/upload/v1770755655/supergirlfly4_rzmdiy.png'} alt='Super Girl flying 4' width="w-120" height="h-144" />
-                <ImageItem src={'https://res.cloudinary.com/dvayupwmu/image/upload/v1770754331/kiki_7_nqxw79.png'} alt='Kiki 7' width="w-120" height="h-144" />
-                <ImageItem src={'https://res.cloudinary.com/dvayupwmu/image/upload/v1770755655/supergirlfly2_gr4enc.png'} alt='Super Girl flying 2' width="w-120" height="h-144" />
-                <ImageItem src={'https://res.cloudinary.com/dvayupwmu/image/upload/v1770755653/starwars1_fsntvx.png'} alt='Star Wars 1' width="w-120" height="h-144" />
-                <ImageItem src={'https://res.cloudinary.com/dvayupwmu/image/upload/v1770755979/serephin1_hflt8h.png'} alt='Serephin 1' width="w-120" height="h-144" />
-                <ImageItem src={'https://res.cloudinary.com/dvayupwmu/image/upload/v1770755651/supergirl0_k6r6rv.png'} alt='Super Girl 0' width="w-120" height="h-144" />
-                <ImageItem src={'https://res.cloudinary.com/dvayupwmu/image/upload/v1770755979/rain4_awnun0.png'} alt='Rain 4' width="w-120" height="h-144" />
-                <ImageItem src={'https://res.cloudinary.com/dvayupwmu/image/upload/v1770755888/starwars7_xsoibl.png'} alt='Star Wars 7' width="w-120" height="h-144" />
-                <ImageItem src={'https://res.cloudinary.com/dvayupwmu/image/upload/v1770755969/angel2_qy3lcg.png'} alt='Angel 2' width="w-120" height="h-144" />
-                <ImageItem src={'https://res.cloudinary.com/dvayupwmu/image/upload/v1770326249/marigold6_rehsep.png'} alt='Marigold 6' width="w-120" height="h-144" />
-                <ImageItem src={'https://res.cloudinary.com/dvayupwmu/image/upload/v1770756936/dryflower0_ctrall.png'} alt='Dry Flower 0' width="w-120" height="h-144" />
-                <ImageItem src={'https://res.cloudinary.com/dvayupwmu/image/upload/v1770756934/gakko3_dg2jtw.png'} alt='Gakko 3' width="w-120" height="h-144" />
-                <ImageItem src={'https://res.cloudinary.com/dvayupwmu/image/upload/v1770756933/amy5_zwjjqq.png'} alt='Amy 5' width="w-120" height="h-144" />
-            </div>
+            <ImageItemPreviewFullWidth src={'https://res.cloudinary.com/dvayupwmu/image/upload/v1770755974/rain1_ybd80y.png'} alt='Rain 1' width="w-full" height="h-144" captionTitle="Rain" captionBody="A girl playing violin in front of a fountain." />
+            <ImageItemPreviewFullWidth src={'https://res.cloudinary.com/dvayupwmu/image/upload/v1770755973/angel1_kwebza.png'} alt='Angel 1' width="w-120" height="h-144" captionTitle="Angel" captionBody="An angel with wings and sword under stormy clouds." />
+            <ImageItemPreviewFullWidth src={'https://res.cloudinary.com/dvayupwmu/image/upload/v1770754359/shinobu_5_h6bvok.png'} alt='Shinobu 5' width="w-120" height="h-144" captionTitle="Shinobu #2" captionBody="Shinobu sitting beside a lotus pond." />
+            <ImageItemPreviewFullWidth src={'https://res.cloudinary.com/dvayupwmu/image/upload/v1770754386/dany3_bjt8ff.png'} alt='Dany 3' width="w-120" height="h-144" captionTitle="Queen of Dragons" captionBody="Daenrys holding Valyrian blade in a minimalist painting style." />
+            <ImageItemPreviewFullWidth src={'https://res.cloudinary.com/dvayupwmu/image/upload/v1770754347/iris_5_ffkxng.png'} alt='Iris Out 5' width="w-120" height="h-144" captionTitle="Iris Out" captionBody="Reze as the subject of Iris Out song." />
+            <ImageItemPreviewFullWidth src={'https://res.cloudinary.com/dvayupwmu/image/upload/v1770755655/supergirlfly4_rzmdiy.png'} alt='Super Girl flying 4' width="w-120" height="h-144" captionTitle="Supergirl Flying" captionBody="Supergirl wearing an old jacket as she flies." />
+            <ImageItemPreviewFullWidth src={'https://res.cloudinary.com/dvayupwmu/image/upload/v1770754331/kiki_7_nqxw79.png'} alt='Kiki 7' width="w-120" height="h-144" captionTitle="Kiki in Stockholm" captionBody="Kiki flies on a broom with Chichi above Stockholm." />
+            <ImageItemPreviewFullWidth src={'https://res.cloudinary.com/dvayupwmu/image/upload/v1770756936/dryflower0_ctrall.png'} alt='Dry Flower 0' width="w-120" height="h-144" captionTitle="Dry Flower" captionBody="A girl holding a vase of dried Ajisai flowers sitting on the Bolivian salt flats." />
+            <ImageItemPreviewFullWidth src={'https://res.cloudinary.com/dvayupwmu/image/upload/v1770756934/gakko3_dg2jtw.png'} alt='Gakko 3' width="w-120" height="h-144" captionTitle="Otona Blue" captionBody="Atarashi Gakko running with cats in streets." />
         </PageBody>
     </>
 }
