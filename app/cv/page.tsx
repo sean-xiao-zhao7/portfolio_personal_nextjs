@@ -5,11 +5,11 @@ import AboutSection from "@/components/layouts/containers/about-section";
 
 export default function CVPage() {
     return <>
-        <PageMainHeader>Sean Xiao - Curriculum Vitae</PageMainHeader>
+        <PageMainHeader>Sean Xiao's Homepage</PageMainHeader>
         <PageBody>
-            <PageMainHeader>Main career roles</PageMainHeader>
+            <PageMainHeader>Curriculum Vitae</PageMainHeader>
             <PageParagraph>
-                <AboutSection h2Content="Full Stack Software Developer" h3Content="BlackSheep Inc.">
+                <AboutSection h2Content="Full Stack Software Developer" h3Content="FellowshipGTA">
                     <p>Use JavaScript/TypeScript based tools like React.js/Next.js, Node/Express.js, HTML5/CSS3, and other tools to write responsive and accessible full stack web applications.</p>
                     <p>Take designs from Figma and mockups and code prototypes for designers to review. Ensure each iteration meets needs of the designers and manager; refine prototypes in a team setting to ensure projects progress at a reasonable pace and quality.</p>
                     <p>Ensure web applications follow current industry standards and best practices in order to achieve loading speed, pleasant presentation and maintainability. Document carefully code written and keep track of project progress. Learn new technologies as needed in a team setting.</p>
@@ -57,7 +57,6 @@ export default function CVPage() {
                     </ul>
                 </AboutSection>
             </PageParagraph >
-            <PageMainHeader>Projects and older career roles</PageMainHeader>
             <PageParagraph>
                 <AboutSection h2Content="Flutter Mobile Application Developer" h3Content="Nectar, Toronto.">
                     <p>Attempt to bootstrap a mobile application-centric startup service.</p>

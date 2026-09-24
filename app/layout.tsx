@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import ColorModeLayout from "./color-mode-layout";
 
 export const metadata: Metadata = {
-  title: "Cyan Jean",
-  description: "Cyan Jean's Portfolio site.",
+  title: "Sean Xiao",
+  description: "Sean Xiao's Portfolio site.",
 };
 
 export default function RootLayout({
