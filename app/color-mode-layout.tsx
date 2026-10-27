@@ -1,9 +1,9 @@
-'use client';
+"use client";
 
 import { ReactNode, useState } from "react";
 import { PT_Serif, Birthstone } from "next/font/google";
 import MainMenu from "@/components/layouts/menu/main-menu";
-import './globals.css';
+import "./globals.css";
 
 const fontBody = PT_Serif({
     weight: ["700", "400"],
@@ -17,22 +17,25 @@ const fontHeader = Birthstone({
 
 /**
  * Root layout that allows switching between dark/light mode.
- * This is a client component, whereas layout.tsx is a server component that exports metadata. 
+ * This is a client component, whereas layout.tsx is a server component that exports metadata.
  */
 export default function ColorModeLayout({ children }: { children: ReactNode }) {
-    const [colorMode, setColorMode] = useState('dark');
+    const [colorMode, setColorMode] = useState("light");
 
-    return <html lang="en" className={colorMode}>
-        <head>
-            <link href="/globals.css" rel="stylesheet" />
-        </head>
-        <body
-            className={`w-full relative flex flex-col md:flex-row ${fontBody.variable} ${fontHeader.variable} antialiased light:bg-white light:text-black`}
-        >
-            <MainMenu setColorMode={setColorMode} currentColorMode={colorMode} />
-            <main className="w-full ml-0 md:ml-60">
-                {children}
-            </main>
-        </body>
-    </html>
+    return (
+        <html lang="en" className={colorMode}>
+            <head>
+                <link href="/globals.css" rel="stylesheet" />
+            </head>
+            <body
+                className={`w-full relative flex flex-col md:flex-row ${fontBody.variable} ${fontHeader.variable} antialiased light:bg-white light:text-black`}
+            >
+                <MainMenu
+                    setColorMode={setColorMode}
+                    currentColorMode={colorMode}
+                />
+                <main className="w-full ml-0 md:ml-60">{children}</main>
+            </body>
+        </html>
+    );
 }

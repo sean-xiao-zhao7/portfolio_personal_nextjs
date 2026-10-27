@@ -6,9 +6,8 @@ import AboutSection from "@/components/layouts/containers/about-section";
 export default function CVPage() {
     return (
         <>
-            <PageMainHeader>Sean Xiao's Homepage</PageMainHeader>
+            <PageMainHeader>Curriculum Vitae</PageMainHeader>
             <PageBody>
-                <PageMainHeader>Curriculum Vitae</PageMainHeader>
                 <PageParagraph>
                     <AboutSection
                         h2Content="Software Developer"

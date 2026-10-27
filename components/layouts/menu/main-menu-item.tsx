@@ -4,8 +4,23 @@ import { ReactNode } from "react";
 /**
  * A single main menu item on the left.
  */
-export default function MainMenuItem({ href, icon, children }: {
-    href: string, icon: ReactNode, children: ReactNode
+export default function MainMenuItem({
+    href,
+    icon,
+    children,
+}: {
+    href: string;
+    icon: ReactNode;
+    children: ReactNode;
 }) {
-    return <li className="w-full"><Link href={href} className="font-header text-4xl px-2 py-4 md:px-10 md:py-8 flex flex-col items-center text-center hover:bg-stone-800 light:hover:bg-stone-200">{icon} {children}</Link></li>
+    return (
+        <li className="w-full">
+            <Link
+                href={href}
+                className="font-header md:text-4xl text-3xl md:px-10 md:py-8 px-2 py-4 flex md:flex-row flex-col items-center md:text-left text-center hover:bg-stone-800 light:hover:bg-stone-200"
+            >
+                <div className="md:mr-3">{icon}</div> {children}
+            </Link>
+        </li>
+    );
 }

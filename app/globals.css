@@ -1,31 +1,27 @@
 @import "tailwindcss";
 
 :root {
-  --background: black;
-  --foreground: #ffffff;
-  --green: oklch(92.249% 0.23442 125.904);
+    --background: black;
+    --foreground: #ffffff;
+    --green: oklch(92.249% 0.23442 125.904);
 }
 
 @custom-variant light (&:where(.light, .light *));
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --color-highlight: var(--green);
-  --font-body: var(--font-body);
-  --font-header: var(--font-header);
+    --color-background: var(--background);
+    --color-foreground: var(--foreground);
+    --color-highlight: var(--green);
+    --font-body: var(--font-body);
+    --font-header: var(--font-header);
 }
 
 html {
-  background: var(--background);
-  color: var(--foreground);
+    background: var(--background);
+    color: var(--foreground);
 }
 
 html.light {
-  background: var(--foreground);
-  color: var(--background);
-}
-
-li:not(:last-child) {
-  padding-bottom: 1rem;
+    background: var(--foreground);
+    color: var(--background);
 }
