@@ -2,16 +2,14 @@ import type { Metadata } from "next";
 import ColorModeLayout from "./color-mode-layout";
 
 export const metadata: Metadata = {
-  title: "Sean Xiao",
-  description: "Sean Xiao's Portfolio site.",
+    title: "Cyan JPX",
+    description: "Cyan JPX's Portfolio",
 };
 
 export default function RootLayout({
-  children,
+    children,
 }: {
-  children: React.ReactNode;
+    children: React.ReactNode;
 }) {
-  return (
-    <ColorModeLayout>{children}</ColorModeLayout>
-  );
+    return <ColorModeLayout>{children}</ColorModeLayout>;
 }

@@ -1,19 +1,19 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  allowedDevOrigins: ['/_next/*'],
-  images: {
-    remotePatterns: [{ protocol: 'https', hostname: 'res.cloudinary.com' }],
-  },
-  redirects() {
-    return [
-      {
-        source: '/',
-        destination: '/cv',
-        permanent: true,
-      },
-    ]
-  },
+    allowedDevOrigins: ["/_next/*"],
+    images: {
+        remotePatterns: [{ protocol: "https", hostname: "res.cloudinary.com" }],
+    },
+    // redirects() {
+    //   return [
+    //     {
+    //       source: '/',
+    //       destination: '/cv',
+    //       permanent: true,
+    //     },
+    //   ]
+    // },
 };
 
 export default nextConfig;
