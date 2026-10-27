@@ -2,6 +2,13 @@
 
 import { useEffect } from "react";
 
+/**
+ * Global Error Boundary Component for Next.js App Router.
+ * Catches unhandled runtime errors in child segments and displays a recovery UI.
+ *
+ * @param props - Component properties containing the error object and a reset function.
+ * @returns JSX element representing the error recovery screen.
+ */
 export default function Error({
     error,
     reset,
