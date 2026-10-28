@@ -17,7 +17,7 @@ export default function ImageItemTextRight({
     captionTitle: string;
 }) {
     return (
-        <ContainerMidShadow flex margin="mb-5">
+        <ContainerMidShadow flex>
             <div className="h-100 md:w-100 md:h-100 relative flex items-center text-center">
                 <SuspenseLoader>
                     <Image
