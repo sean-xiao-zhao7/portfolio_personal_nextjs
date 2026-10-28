@@ -14,7 +14,7 @@ export default function VerticalList({
         <ul className="list-none">
             {listItems.map((currentItem) => {
                 return (
-                    <li className="pb-4 last:pb-0" key={currentItem.key}>
+                    <li className="pb-6 last:pb-0" key={currentItem.key}>
                         {currentItem.element}
                     </li>
                 );
