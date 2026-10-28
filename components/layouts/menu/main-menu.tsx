@@ -73,7 +73,7 @@ export default function MainMenu({
                         />
                     }
                 >
-                    A.I. Illustrations
+                    AI Art
                 </MainMenuItem>
                 <MainMenuItem
                     href="/music"
