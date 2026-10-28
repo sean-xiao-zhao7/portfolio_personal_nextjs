@@ -38,7 +38,7 @@ export default function MainMenu({
 
     return (
         <>
-            <ul className="w-60 fixed pb-10 hidden flex-col items-center md:flex md:h-full md:justify-center bg-stone-950 light:bg-stone-100 light:border-r light:border-stone-200">
+            <ul className="w-60 fixed pb-10 hidden flex-col items-center md:flex md:h-full md:justify-center md:pb-0 bg-stone-950 light:bg-stone-100 light:border-r light:border-stone-200">
                 <MainMenuItem
                     href="/"
                     icon={
@@ -73,7 +73,7 @@ export default function MainMenu({
                         />
                     }
                 >
-                    AI Art
+                    Midjourney
                 </MainMenuItem>
                 <MainMenuItem
                     href="/music"
