@@ -4,7 +4,7 @@ export default function CursiveText({
     fontSize = "",
     children,
 }: {
-    fontSize: String;
+    fontSize?: String;
     children: ReactNode;
 }) {
     return <span className={`font-header ${fontSize}`}>{children}</span>;

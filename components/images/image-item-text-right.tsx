@@ -30,7 +30,7 @@ export default function ImageItemTextRight({
             </div>
             <div className="p-5">
                 <CursiveText fontSize={"text-5xl"}>{captionTitle}</CursiveText>
-                <ContentDivider />
+                <ContentDivider mdmt={"md:mt-4"} mdmb={"md:mb-4"} />
                 <p>{captionBody}</p>
             </div>
         </ContainerMidShadow>

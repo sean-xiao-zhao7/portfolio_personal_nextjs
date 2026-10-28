@@ -1,8 +1,22 @@
 /**
  * Add space and 2 newlines
  */
-export default function ContentDivider() {
-    return <>
-        <hr className="mt-4 md:mt-8 mb-4 md:mb-8 text-lime-700 light:text-stone-200" />
-    </>
+export default function ContentDivider({
+    mt = "mt-4",
+    mb = "mb-4",
+    mdmt = "md:mt-8",
+    mdmb = "md:mb-8",
+}: {
+    mt?: String;
+    mb?: String;
+    mdmt?: String;
+    mdmb?: String;
+}) {
+    return (
+        <>
+            <hr
+                className={`${mt} ${mb} ${mdmt} ${mdmb} text-lime-700 light:text-stone-200`}
+            />
+        </>
+    );
 }
