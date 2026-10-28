@@ -2,7 +2,8 @@ import Image from "next/image";
 
 import SuspenseLoader from "../widgets/suspense-loader";
 import ContainerMidShadow from "../layouts/containers/container-mid-shadow";
-import PageMainHeader from "../layouts/headers/page-main-header";
+import CursiveText from "../text/cursive-text";
+import ContentDivider from "../widgets/content-divider";
 
 export default function ImageItemTextRight({
     src,
@@ -28,7 +29,8 @@ export default function ImageItemTextRight({
                 </SuspenseLoader>
             </div>
             <div className="p-5">
-                <PageMainHeader>{captionTitle}</PageMainHeader>
+                <CursiveText fontSize={"text-5xl"}>{captionTitle}</CursiveText>
+                <ContentDivider />
                 <p>{captionBody}</p>
             </div>
         </ContainerMidShadow>
