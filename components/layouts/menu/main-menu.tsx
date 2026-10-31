@@ -38,7 +38,7 @@ export default function MainMenu({
 
     return (
         <>
-            <ul className="fixed hidden md:grid grid-flow-row auto-rows-fr justify-items-stretch w-60 h-full pb-0 bg-stone-950 light:bg-stone-100 light:border-r light:border-stone-200">
+            <ul className="fixed hidden md:grid grid-rows-auto w-60 h-full bg-stone-950 light:bg-stone-100 light:border-r light:border-stone-200">
                 <MainMenuItem
                     href="/"
                     icon={
@@ -111,13 +111,11 @@ export default function MainMenu({
                 >
                     Blog
                 </MainMenuItem>
-                <li className="flex justify-center items-center">
-                    <ModeSwitcher
-                        text={currentColorMode === "dark" ? "Light" : "Dark"}
-                        modeSwitchHandler={modeSwitcherHandler}
-                        on={currentColorMode === "dark"}
-                    />
-                </li>
+                <ModeSwitcher
+                    text={currentColorMode === "dark" ? "Light" : "Dark"}
+                    modeSwitchHandler={modeSwitcherHandler}
+                    on={currentColorMode === "dark"}
+                />
             </ul>
             <ul
                 className={`mobile-menu ${
@@ -203,13 +201,11 @@ export default function MainMenu({
                 >
                     Blog
                 </MainMenuItem>
-                <li className="px-10 py-8">
-                    <ModeSwitcher
-                        text={currentColorMode === "dark" ? "Light" : "Dark"}
-                        modeSwitchHandler={modeSwitcherHandler}
-                        on={currentColorMode === "dark"}
-                    />
-                </li>
+                <ModeSwitcher
+                    text={currentColorMode === "dark" ? "Light" : "Dark"}
+                    modeSwitchHandler={modeSwitcherHandler}
+                    on={currentColorMode === "dark"}
+                />
             </ul>
             <div
                 className="flex md:hidden p-2 fixed z-0"

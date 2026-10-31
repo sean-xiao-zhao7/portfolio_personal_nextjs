@@ -1,7 +1,6 @@
 import { Moon, Sun } from "lucide-react";
 
 export default function ModeSwitcher({
-    text = "",
     modeSwitchHandler,
     on,
 }: {
@@ -10,15 +9,17 @@ export default function ModeSwitcher({
     on: boolean;
 }) {
     return (
-        <button
-            className="rounded-md text-2xl font-semibold cursor-pointer flex flex-row justify-center"
-            onClick={modeSwitchHandler}
-        >
-            {on ? (
-                <Sun fill="yellow" color="yellow" size={30} />
-            ) : (
-                <Moon fill="yellow" size={30} />
-            )}
-        </button>
+        <li>
+            <button
+                className="flex flex-col md:flex-row items-center justify-center md:text-left md:w-60 font-header text-3xl md:text-4xl px-2 py-4 md:px-10 md:py-8 cursor-pointer hover:bg-stone-800 light:hover:bg-stone-200"
+                onClick={modeSwitchHandler}
+            >
+                {on ? (
+                    <Sun fill="yellow" color="yellow" size={30} />
+                ) : (
+                    <Moon fill="yellow" size={30} />
+                )}
+            </button>
+        </li>
     );
 }

@@ -17,7 +17,7 @@ export default function MainMenuItem({
         <li>
             <Link
                 href={href}
-                className="md:w-60 font-header md:text-4xl text-3xl md:px-10 md:py-8 px-2 py-4 flex md:flex-row flex-col items-center md:text-left text-center hover:bg-stone-800 light:hover:bg-stone-200"
+                className="flex flex-col md:flex-row items-center text-center md:text-left md:w-60 font-header text-3xl md:text-4xl px-2 py-4 md:px-10 md:py-8 hover:bg-stone-800 light:hover:bg-stone-200"
             >
                 <div className="md:mr-3">{icon}</div> {children}
             </Link>
