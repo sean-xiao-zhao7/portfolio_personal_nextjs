@@ -38,7 +38,7 @@ export default function MainMenu({
 
     return (
         <>
-            <ul className="w-60 fixed hidden md:grid justify-items-center h-full pb-0 bg-stone-950 light:bg-stone-100 light:border-r light:border-stone-200">
+            <ul className="fixed hidden md:grid grid-flow-row auto-rows-fr justify-items-stretch w-60 h-full pb-0 bg-stone-950 light:bg-stone-100 light:border-r light:border-stone-200">
                 <MainMenuItem
                     href="/"
                     icon={
@@ -111,7 +111,7 @@ export default function MainMenu({
                 >
                     Blog
                 </MainMenuItem>
-                <li className="px-10 py-8">
+                <li className="flex justify-center items-center">
                     <ModeSwitcher
                         text={currentColorMode === "dark" ? "Light" : "Dark"}
                         modeSwitchHandler={modeSwitcherHandler}
