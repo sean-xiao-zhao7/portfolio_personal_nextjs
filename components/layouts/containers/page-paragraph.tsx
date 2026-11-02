@@ -1,7 +1,21 @@
 import { ReactNode } from "react";
 
-export default function PageParagraph({ children }: { children: ReactNode }) {
-    return <div className="p-6 my-6 md:p-10 md:my-10 last:mb-0 first:mt-0 rounded-sm shadow-md bg-stone-800 light:bg-stone-50">
-        {children}
-    </div>
+export default function PageParagraph({
+    padding,
+    margin,
+    children,
+}: {
+    padding?: String;
+    margin?: String;
+    children: ReactNode;
+}) {
+    return (
+        <div
+            className={`${padding ? padding : "p-6 md:p-8"} ${
+                margin ? margin : "my-6 md:my-7"
+            } last:mb-0 first:mt-0 rounded-sm shadow-md bg-stone-800 light:bg-stone-50`}
+        >
+            {children}
+        </div>
+    );
 }

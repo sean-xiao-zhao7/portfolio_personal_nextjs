@@ -11,7 +11,7 @@ export default function CVPage() {
                 <PageParagraph>
                     <AboutSection
                         h2Content="Software Developer"
-                        h3Content="Fellowship of Christian Athletes"
+                        h3Content="Fellowship of Christian Athletes / Fellowship GTA"
                     >
                         <p>
                             Participate in design of web/mobile apps using
