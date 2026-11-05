@@ -28,7 +28,7 @@ export default function ImageItemTextRight({
                     />
                 </SuspenseLoader>
             </div>
-            <div className="p-5">
+            <div className="p-5 w-full">
                 <CursiveText fontSize={"text-5xl"}>{captionTitle}</CursiveText>
                 <ContentDivider mdmt={"md:mt-4"} mdmb={"md:mb-4"} />
                 <p>{captionBody}</p>

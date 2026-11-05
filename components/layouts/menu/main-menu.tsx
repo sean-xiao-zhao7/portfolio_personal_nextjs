@@ -73,7 +73,7 @@ export default function MainMenu({
                         />
                     }
                 >
-                    Midjourney
+                    Nijijourney
                 </MainMenuItem>
                 <MainMenuItem
                     href="/music"
