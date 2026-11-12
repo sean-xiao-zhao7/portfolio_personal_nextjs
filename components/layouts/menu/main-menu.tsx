@@ -52,18 +52,6 @@ export default function MainMenu({
                     Home
                 </MainMenuItem>
                 <MainMenuItem
-                    href="/cv"
-                    icon={
-                        <FileUser
-                            fill={iconFillColor}
-                            color={iconOutlineColor}
-                            size={30}
-                        />
-                    }
-                >
-                    C.V.
-                </MainMenuItem>
-                <MainMenuItem
                     href="/ai"
                     icon={
                         <Bot
@@ -118,9 +106,8 @@ export default function MainMenu({
                 />
             </ul>
             <ul
-                className={`mobile-menu ${
-                    isMobile ? "flex" : "hidden"
-                } fixed z-10 min-h-screen pb-10 flex flex-col items-center bg-stone-950 light:bg-stone-100 light:border-r light:border-stone-200`}
+                className={`mobile-menu ${isMobile ? "flex" : "hidden"
+                    } fixed z-10 min-h-screen pb-10 flex flex-col items-center bg-stone-950 light:bg-stone-100 light:border-r light:border-stone-200`}
             >
                 <div className="pt-4" onClick={toggleMobileMenuHandler}>
                     <MenuIcon

@@ -23,20 +23,18 @@ export default function Home() {
                     <CursiveText fontSize={"text-5xl"}>About me</CursiveText>
                 </Container>
                 <p>
-                    I am a full stack software engineer specializing in frontend
-                    work using React, TypeScript and other tools,
+                    I am a full stack software engineer who uses React, TypeScript and other tools,
                 </p>
                 <p>
                     in combination with A.I. agentic work style. I build
-                    responsive and user-friendly web and mobile apps from
-                    concept to release.
+                    responsive and user-friendly web and mobile apps!
                 </p>
                 <ContentDivider />
-                <Container margin="md:mb-4">
+                {/* <Container margin="md:mb-4">
                     <CursiveText fontSize={"text-5xl"}>C.V.</CursiveText>
                 </Container>
                 <p>A summary of my work history.</p>
-                <ContentDivider />
+                <ContentDivider /> */}
                 <Container margin="md:mb-4">
                     <CursiveText fontSize={"text-5xl"}>Midjourney</CursiveText>
                 </Container>
