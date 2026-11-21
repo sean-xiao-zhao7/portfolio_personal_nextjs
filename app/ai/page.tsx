@@ -15,6 +15,14 @@ export default async function AIPage() {
     const imageJSXList: JSX.Element[] = [
         <ImageItemTextRight
             src={
+                "https://res.cloudinary.com/dvayupwmu/image/upload/v1795211295/akira_4_vcufu5.png"
+            }
+            alt="AKIRA"
+            captionTitle="AKIRA"
+            captionBody="A tribute to the 1988 animated movie."
+        />,
+        <ImageItemTextRight
+            src={
                 "https://res.cloudinary.com/dvayupwmu/image/upload/v1770755974/rain1_ybd80y.png"
             }
             alt="Rain 1"
