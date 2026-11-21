@@ -30,15 +30,10 @@ export default function Home() {
                     responsive and user-friendly web and mobile apps!
                 </p>
                 <ContentDivider />
-                {/* <Container margin="md:mb-4">
-                    <CursiveText fontSize={"text-5xl"}>C.V.</CursiveText>
-                </Container>
-                <p>A summary of my work history.</p>
-                <ContentDivider /> */}
                 <Container margin="md:mb-4">
-                    <CursiveText fontSize={"text-5xl"}>Midjourney</CursiveText>
+                    <CursiveText fontSize={"text-5xl"}>Nijijourney</CursiveText>
                 </Container>
-                <p>I am practicing prompting using Midjourney.</p>
+                <p>I am practicing prompting using Nijijourney.</p>
                 <p>
                     My goal is to make images I would have made using
                     traditional tools.
