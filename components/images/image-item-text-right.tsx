@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { cacheLife } from "next/cache";
 
 import SuspenseLoader from "../widgets/suspense-loader";
 import ContainerMidShadow from "../layouts/containers/container-mid-shadow";
@@ -16,6 +17,9 @@ export default function ImageItemTextRight({
     captionBody: string;
     captionTitle: string;
 }) {
+    "use cache";
+    cacheLife("hours");
+
     return (
         <ContainerMidShadow flex>
             <div className="h-100 md:w-100 md:h-100 relative flex items-center text-center">

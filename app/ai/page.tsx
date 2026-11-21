@@ -1,5 +1,4 @@
 import { JSX } from "react";
-import { cacheLife } from "next/cache";
 
 import PageBody from "@/components/layouts/containers/page-body";
 import PageMainHeader from "@/components/layouts/headers/page-main-header";
@@ -9,9 +8,6 @@ import VerticalList, {
 } from "@/components/widgets/vertical-list";
 
 export default async function AIPage() {
-    "use cache";
-    cacheLife("hours");
-
     const imageJSXList: JSX.Element[] = [
         <ImageItemTextRight
             src={
