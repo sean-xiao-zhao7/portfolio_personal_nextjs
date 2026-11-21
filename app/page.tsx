@@ -4,6 +4,7 @@ import PageMainHeader from "@/components/layouts/headers/page-main-header";
 import CursiveText from "@/components/text/cursive-text";
 import ContentDivider from "@/components/widgets/content-divider";
 
+
 /**
  * Home page component for the Cyan JPX Portfolio application.
  * Serves as the landing page displaying a welcome message and navigation instructions.

@@ -5,8 +5,8 @@ export default function PageParagraph({
     margin,
     children,
 }: {
-    padding?: String;
-    margin?: String;
+    padding?: string;
+    margin?: string;
     children: ReactNode;
 }) {
     return (

@@ -3,7 +3,8 @@
 import { ReactNode, useState } from "react";
 import { PT_Serif, Birthstone } from "next/font/google";
 import MainMenu from "@/components/layouts/menu/main-menu";
-import "./globals.css";
+
+import "./styles.css";
 
 const fontBody = PT_Serif({
     weight: ["700", "400"],
@@ -24,9 +25,6 @@ export default function ColorModeLayout({ children }: { children: ReactNode }) {
 
     return (
         <html lang="en" className={colorMode}>
-            <head>
-                <link href="/globals.css" rel="stylesheet" />
-            </head>
             <body
                 className={`w-full relative flex flex-col md:flex-row ${fontBody.variable} ${fontHeader.variable} antialiased light:bg-white light:text-black`}
             >

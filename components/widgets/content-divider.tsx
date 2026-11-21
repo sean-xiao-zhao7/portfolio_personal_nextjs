@@ -7,10 +7,10 @@ export default function ContentDivider({
     mdmt = "md:mt-8",
     mdmb = "md:mb-8",
 }: {
-    mt?: String;
-    mb?: String;
-    mdmt?: String;
-    mdmb?: String;
+    mt?: string;
+    mb?: string;
+    mdmt?: string;
+    mdmb?: string;
 }) {
     return (
         <>

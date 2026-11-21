@@ -5,8 +5,8 @@ export default function Container({
     padding,
     children,
 }: {
-    margin?: String;
-    padding?: String;
+    margin?: string;
+    padding?: string;
     children: JSX.Element | JSX.Element[];
 }) {
     return <div className={`${margin ?? ""} ${padding ?? ""}`}>{children}</div>;
