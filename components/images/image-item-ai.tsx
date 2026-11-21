@@ -6,7 +6,7 @@ import ContainerMidShadow from "../layouts/containers/container-mid-shadow";
 import CursiveText from "../text/cursive-text";
 import ContentDivider from "../widgets/content-divider";
 
-export default async function ImageItemTextRight({
+export default async function ImageItemAI({
     src,
     alt,
     captionBody,
